@@ -1,5 +1,5 @@
-#Genomica Computacional
-##Parctica 01 - Manejo de datos de secuenciaciòn masiva 
+# Genomica Computacional
+## Practica 01 - Manejo de datos de secuenciaciòn masiva 
 
 ## Parte I
 mkdir GenomicaComputacional
@@ -8,8 +8,8 @@ mkdir jramirez_p01
 cd jramirez_p01
 touch comandos_p01.txt
 
-#Comandos de la practica 1
-##F.Javier Ramirez Justo
+# Comandos de la practica 1
+## F.Javier Ramirez Justo
 
 ## Parte I.
 #!/bin/bash
@@ -128,7 +128,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 FFFFFFFFFFFFAFFFAFFFFFF6A//F//FFF
 ##Patron para las secuencias
 zless SRR10971381_R2.fastq.gz | grep '@' | wc -l
-**130022**
+=130022
 
 09.
 .fasta es el formato generico, es un texto usado para la representacion de secuencias, ya sea de nucleotidos o de aminoacidos
@@ -139,9 +139,9 @@ En la linea 1 se encuentra el identificador de seciencia, en la linea 2 se encue
 10.
 less sarscov2_genome.gff3
 less -S sarscov2_genome.gff3
-**Con -S se deshabilita el autoajuste de las lineas, al organizarlo de manera lateral se observa con orden**
+*Con -S se deshabilita el autoajuste de las lineas, al organizarlo de manera lateral se observa con orden*
 
 11.less -S sarscov2_genome.gff3 | cut -f3 |sort | uniq -c
-**Tiene 11 genes
-El campo 3 corresponde a la feature, la feature gene la que se le asigna un nombre, mientras que la CDS es la secuencia codificante, que corresponde a la secuenciade nucleotidos **
+*Tiene 11 genes
+El campo 3 corresponde a la feature, la feature gene la que se le asigna un nombre, mientras que la CDS es la secuencia codificante, que corresponde a la secuenciade nucleotidos *
 
