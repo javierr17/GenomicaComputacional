@@ -1,0 +1,7 @@
+#Funcion de la SARS-CoV-2 spike ectodomain structure
+EL ectodominio consta de una subunidad de union al receptor (S1) y una
+subunidad de fusion a la membrana (S2).
+La espiga es un trimero con tres cabezas S1 y yn tallo trimerico S2. 
+A la entrada del virus, S1 se une a un receptor en la superficie de la celula huesped, S2 fuciona las 
+membranas del husped y la viral, lo que permite que los genomas virales 
+entren en la celula del huesped. 
