@@ -9,7 +9,7 @@ cd jramirez_p01
 touch comandos_p01.txt
 
 # Comandos de la practica 1
-## F.Javier Ramirez Justo
+## F. Javier Ramirez Justo
 
 ## Parte I.
 #!/bin/bash
