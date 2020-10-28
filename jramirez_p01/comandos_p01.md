@@ -4,13 +4,9 @@
 ## Parte I
 ` 
 <mkdir GenomicaComputacional>
-
 <cd GenomicaComputacional>
-
 <mkdir jramirez_p01>
-
 <cd jramirez_p01>
-
 <touch comandos_p01.txt>
 `
 
@@ -129,10 +125,12 @@
 <touch glycoproteins.faa>
 <ls>
 ` 
+
 03. 
 `
 <head -n1 splike_*.faa>
 `
+
 ==> splike_a.faa <==
 >pdb|6VXX|A Chain A, SARS-CoV-2 spike glycoprotein
 
@@ -153,15 +151,15 @@
 <cd raw_data>
 <mv splike_*.faa ~/GenomicaComputacional/jramirez_p01/archive>
 `
+
 la liga simbolica se rompio
 
 06. 
-`
-<less sarscov2_genome.fasta>
+
+`<less sarscov2_genome.fasta>
 <zless sarscov2_assembly.fasta.gz>
 <head -n3 sarscov2_genome.fasta>
 `
-
 >NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
 ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAA
 CGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAAC
@@ -201,7 +199,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 +
 FFFFFFFFFFFFAFFFAFFFFFF6A//F//FFF
 
-Patron para las secuencias
+Patron para las secuencias:
 ` 
 <zless SRR10971381_R2.fastq.gz | grep '@' | wc -l>
 `
